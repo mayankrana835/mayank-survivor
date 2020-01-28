@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7172db6099fa9584da87327c01b84f92, type: 3}
+  m_Name: Meat
+  m_EditorClassIdentifier: 
+  Name: Meat
+  Description: It's raw meat
+  Weight: 0.75
+  Sprite: {fileID: 21300000, guid: f8db5ba9592dca944b68ed05998f02d7, type: 3}
+  Actions:
+  - Eat
+  - Drop
+  hunger: 100
+  health: 15
